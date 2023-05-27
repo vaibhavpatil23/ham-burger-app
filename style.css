@@ -116,7 +116,7 @@
 .section {
   font-family: "Playfair Display", serif;
 
-  height: 500px;
+  height: 450px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
