@@ -156,3 +156,10 @@ padding: 16px 0;
   margin: 7px 2px;
   border: 2px solid black
 }
+.contact{
+  background-color: #eeeeee;
+  height: 34vh;
+}
+.text-center{
+  text-align: center;
+}
