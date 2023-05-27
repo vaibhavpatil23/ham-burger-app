@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>I-Education - Transforming Online Education</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/558f045645.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav class="navbar background">
       <ul class="navlist">
         <div class="logo"><img src="img/img.jpg" alt="logo" /></div>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About us">About us </a></li>
-        <li><a href="#Servises">Servises</a></li>
-        <li><a href="#Contact us">Contact us</a></li>
+        <li><a href="Home">Home</a></li>
+        <li><a href="About us">About us </a></li>
+        <li><a href="Servises">Servises</a></li>
+        <li><a href="Contact us">Contact us</a></li>
       </ul>
       <div class="rightnav">
         <input type="text" name="search" id="search" />
-        <button class="btn btn-sm">Search</button>
+        <!-- <button class="btn btn-sm">Search</button> -->
+        <i class="fa fa-search btn-sm vst"></i>
+
       </div>
     </nav>
     <section class="background firstsection">
@@ -160,10 +163,20 @@
     <hr>
     <section class="contact">
   <h2 class=" text-center">Contact us</h2>
-  <div>
-    <input type="text" name="name" id="id">
+  <div class="form">
+    <input class="form-input" type="text" name="name" id="id" placeholder="Enter your Name">
+    <input  class="form-input" type="text" name="name" id="id" placeholder="Enter your Email">
+    <input  class="form-input" type="text" name="name" id="id" placeholder="Enter your Phone">
+    <input  class="form-input" type="text" name="name" id="id" placeholder="Enter your Gender">
+    <textarea  class="form-input" name="text" id="text" cols="30" rows="10">Ellaborate your concen</textarea>
+    <button class="btn btn-sm btn-dark">Submit</button>
   </div>
-
     </section>
+    <hr>
+    <footer>
+      <p class="footer-center">
+        Copyright &copy; 2017 - All right reserve
+      </p>
+    </footer>
   </body>
 </html>
