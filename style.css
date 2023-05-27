@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:ital,wght@1,500&family=Merriweather:wght@700&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500;1,800&family=Playfair:ital,wght@1,500&family=Poppins:ital,wght@0,500;1,400&family=Roboto+Slab:wght@400;500;600;900&family=Source+Code+Pro&family=Source+Sans+Pro:wght@900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +16,13 @@
   border-radius: 164px;
 }
 .navbar {
+  font-family: "Poppins", sans-serif;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
 }
 .navlist {
   display: flex;
@@ -27,9 +35,8 @@
   padding: 25px 30px;
 }
 .navlist li a:hover {
-   color: aqua;
-   
-  }
+  color: aqua;
+}
 .navlist li a {
   text-decoration: none;
   color: rgb(241, 235, 235);
@@ -38,38 +45,114 @@
   width: 50%;
   /* background-color: aqua; */
   text-align: right;
+  padding: 0 23px;
 }
-#search{
-    padding: 5px;
-    font-size: 17px;
-    border: 2px solid black;
-    border-radius: 10px;
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid black;
+  border-radius: 10px;
 }
-.background{
-    background: rgb(0,0,0,0.7) url('img/bg.jpg');
-    background-size: cover;
-    background-blend-mode:darken ;
+.background {
+  background: rgb(0, 0, 0, 0.7) url("img/bg.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
 }
-.secondhalf img{
-width:200px;
-
+.secondhalf img {
+  width: 200px;
 }
-.box-main{
+.box-main {
   display: flex;
   justify-content: center;
   align-items: center;
   color: beige;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 50%;
+  margin: auto;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 76%;
 }
-.firstsection{
-  height: 100vh;
+.firstsection {
+  height: 80vh;
 }
-.firsthalf{
+.firsthalf {
   width: 80%;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.secondhalf{
+.secondhalf {
   width: 30%;
+}
+.secondhalf img {
+  width: 70%;
+  border: 4px solid black;
+  border-radius: 160px;
+  display: block;
+  margin: auto;
+}
+.text-big {
+  font-family: "EB Garamond", serif;
+
+  font-size: 40px;
+}
+.text-small {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+.btn {
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 8px 20px;
+  background: none;
+  cursor: pointer;
+  color: azure;
+  margin: 7px 2px;
+  border: 2px solid white;
+}
+.btn-sm {
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+.section {
+  font-family: "Playfair Display", serif;
+
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 80%;
+  margin: auto;
+}
+.left {
+  flex-direction: row-reverse;
+}
+.imgflued {
+  width: 330px;
+}
+.para {
+  padding: 0px 65px;
+}
+.sectiontag{
+padding: 16px 0;  
+  }
+
+.sectionsubtag {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.thum img {
+  width: 236px;
+  border: 1px solid black;
+  border-radius: 39px;
+  margin-top: 19px;
+  box-shadow: 12px 10px 40px black;
+}
+.bbm{
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 8px 20px;
+  background: none;
+  cursor: pointer;
+  color: black;
+  margin: 7px 2px;
+  border: 2px solid black
 }
